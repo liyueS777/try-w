@@ -16,6 +16,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-polyfill": "^6.26.0",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
@@ -25,7 +26,9 @@
     "webpack": "^4.19.1",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8",
+    "webpack-html-plugin": "^0.1.1",
     "webpack-manifest-plugin": "^2.0.4",
-    "webpack-merge": "^4.1.4"
+    "webpack-merge": "^4.1.4",
+    "whatwg-fetch": "^3.0.0"
   }
 }
